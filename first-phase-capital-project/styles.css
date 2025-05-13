@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #02051a;
+  width: 100%;
+  color: white;
+}
+
+/* ******************************   HEADER  ******************************* */
+header {
+  color: white;
+  background-color: #02051a;
+}
+
+header .nav-bar {
+  padding: 0 5rem;
+  height: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .nav-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .nav-options h1 {
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.nav-bar img {
+  height: 17rem;
+  width: 17rem;
+}
+
+.fa-share-nodes {
+  cursor: pointer;
+}
+
+.nav-bar .nav-contact-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.nav-bar .nav-contact-share button {
+  background-color: #3728e8;
+  color: white;
+  height: 3rem;
+  width: 11rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.nav-bar h1 span {
+  color: gray;
+}
+
+.nav-bar .nav-contact-share i {
+  font-size: 2rem;
+}
+
+/*                                     HERO                                   */
+
+.main-hero {
+  background: radial-gradient(rgba(255, 255, 255, 0.025), #06080f);
+  /* background-image: url(https://uploads-ssl.webflow.com/649a65d2bf6a860a8dae0fbb/64ab82e87a03f6aabfc516f4_Bg_light.svg); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 11%;
+}
+.main-hero-container {
+  height: 100%;
+  width: 100%;
+  /* background-image: url(https://uploads-ssl.webflow.com/649a65d2bf6a860a8dae0fbb/64ab82e87a03f6aabfc516f4_Bg_light.svg); */
+}
+.main-h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  margin-bottom: 1rem;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.main-img img {
+  width: 55%;
+  height: 55%;
+}
+
+.main-p {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* width: 75%;
+  margin-left: 14%; */
+  /* padding: 0rem 38rem; */
+  /* font-weight: 900; */
+}
+
+.main-p p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  flex-wrap: wrap;
+  color: lightgrey;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.main-button button {
+  background-color: #3728e8;
+  color: white;
+  height: 3rem;
+  width: 13rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.main-button i {
+  margin-left: 11px;
+}
+/* 
+.hero-elements .gradient-1 {
+  position: relative;
+  height: 110vh;
+  background: radial-gradient(rgba(255, 255, 255, 0.1) 10%, #02051a);
+  top: -70rem;
+  z-index: -1;
+  opacity: 0.8;
+}
+ */
+
+.hero-elements .stickers {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  height: 0vh;
+  flex-wrap: wrap;
+}
+
+.stickers {
+  position: relative;
+  /* height: 0vh; */
+  top: -130vh;
+  z-index: -1;
+  opacity: 0.3;
+}
+.stickers .sticker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e1028;
+  width: 14rem;
+  height: 3rem;
+  border-radius: 25px;
+  margin: 10rem 10rem;
+  position: relative;
+  /* animation-name: example;
+  animation-duration: 3s; */
+}
+
+.sticker.left-1 {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+/* .stickers .sticker-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e1028;
+  width: 14rem;
+  height: 3rem;
+  border-radius: 25px;
+  margin: 3rem 3rem;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 3s; */
+
+.sticker p {
+  padding-left: 15px;
+}
+
+.sticker span {
+  padding-left: 15px;
+}
+
+/* 
+@keyframes move_center {
+  0% {
+    right: 0px;x
+    top: 0px;
+    color: red;
+  }
+  100% {
+    right: 100px;
+    top: 100px;
+    color: green;
+  }
+} */
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 200px;
+    top: 200px;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+
+  100% {
+    right: 200px;
+    top: 200px;
+  }
+}
